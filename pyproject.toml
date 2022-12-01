@@ -1,0 +1,30 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Michał Mrówka", email = "michal.z.mrowka@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+license = {text = "MIT"}
+[project.optional-dependencies]
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "mypy>=0.991",
+    "blue>=0.9.1",
+    "flake8>=4.0.1",
+    "isort>=5.10.1",
+    "pytest>=7.2.0",
+    "pytest-watch>=4.2.0",
+]
+
+[tool.pdm.scripts]
+day_01_puzzle_1 = "python -m src.day_01.puzzle_1"
+day_01_puzzle_2 = "python -m src.day_01.puzzle_2"
+test = "ptw"
