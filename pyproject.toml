@@ -27,4 +27,6 @@ dev = [
 [tool.pdm.scripts]
 day_01_puzzle_1 = "python -m src.day_01.puzzle_1"
 day_01_puzzle_2 = "python -m src.day_01.puzzle_2"
-test = "ptw"
+day_02_puzzle_1 = "python -m src.day_02.puzzle_1"
+day_02_puzzle_2 = "python -m src.day_02.puzzle_2"
+tests = "ptw"
